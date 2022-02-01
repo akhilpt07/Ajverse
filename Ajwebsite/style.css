@@ -153,11 +153,18 @@ p {
   background-color: #d6d7ec;
   margin-right: 20px;
 }
-.items {
+.portfolio-items {
   padding-top: 50px;
   display: flex;
+  overflow-x: scroll;
 }
-
+.portfolio-item {
+  width: 500px;
+  height: 500px;
+}
+.title {
+  max-width: 406px;
+}
 .card-title {
   font-size: 22px;
   font-weight: 500;
@@ -316,8 +323,5 @@ p {
     margin-left: 16px;
     margin-top: 55px;
     padding-top: 15px;
-  }
-  .title {
-    max-width: 406px;
   }
 }
